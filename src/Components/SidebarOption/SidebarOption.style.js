@@ -20,7 +20,10 @@ const SidebarOptionContainer = styled.div`
     padding: 15px;
   }
 `;
-const SidebarOptionChannel = styled.h3``;
+const SidebarOptionChannel = styled.h3`
+  padding: 10px 0;
+  font-weight: 300;
+`;
 
 export { SidebarOptionChannel };
 export default SidebarOptionContainer;

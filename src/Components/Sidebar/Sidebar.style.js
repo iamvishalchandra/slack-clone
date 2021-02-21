@@ -7,6 +7,7 @@ const SidebarContainer = styled.div`
   border-top: 1px solid #49274b;
   max-width: 260px;
   margin-top: 60px;
+  overflow-y: scroll;
 
   > hr {
     margin-top: 10px;
@@ -31,10 +32,10 @@ const SidebarInfo = styled.div`
   flex: 1;
 
   > h2 {
-    display: flex;
-    font-size: 13px;
-    font-weight: 400;
-    align-items: center;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    /* align-items: center; */
   }
 
   > h3 {
